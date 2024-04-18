@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+ <title>Customer Registration Form</title>
+</head>
+<body>
+ <header>
+ <h1><a href="Home.html" ><img src="Logo.jpeg"
+    style="width: 100px; height:100px ;"  alt="Little Betterfly Boutique logo"></a> Betterfly Boutique</h1>
+ <nav>
+ <ul>
+ <li><a href="Home.html">Home</a></li>
+ <li><a href="Product1.html">Product 1</a></li>
+ <li><a href="Product2.html">Product 2</a></li>
+ <li><a href="Contact.html">Contact us</a></li>
+ </ul>
+ </nav>
+ </header>
+ <h1>Customer Registration Form</h1>
+ <form action="http://COMP334.studentswebprojects.ritaj.ps/util/process.php" method="post">
+    <label for="first_name">First Name:</label><br/>
+     <input type="text" id="first_name" name="first_name" required><br/>
+     
+     <label for="last_name">Last Name:</label><br/>
+     <input type="text" id="last_name" name="last_name" required><br/>
+     
+     <label for="email">Email:</label><br/>
+     <input type="email" id="email" name="email" required><br/>
+     
+     <label for="phone">Phone:</label><br/>
+     <input type="tel" id="phone" name="phone"  required><br/>
+     
+     <label for="address">Address:</label><br/>
+     <input type="text" id="address" name="address" required><br/>
+     
+     <label for="city">City:</label><br/>
+     <input type="text" id="city" name="city" required><br/>
+     
+     <label for="postal_code">Postal Code:</label><br/>
+     <input type="text" id="postal_code" name="postal_code" required><br/>
+     
+     <label for="country">Country:</label><br/>
+     <select id="country" name="country" required>
+      <option value="">Select your country</option>
+      <option value="USA">USA</option>
+      <option value="Canada">Canada</option>
+      <option value="Mexico">Mexico</option>
+      <option value="Palestine">Palestine</option>
+      <option value="Jordan">Jordan</option>
+      <option value="Egypt">Egypt</option>
+  </select><br>
+     
+     <input type="submit" value="Submit">
+ </form>
+ <footer>
+    <p>Last updated on: 2024-03-30</p>
+    <p>Address: alarsal Street, Ramallah, palestine</p>
+    <p>Phone: 0596432687</p>
+    <p>Email:info@littlebetterflyboutique.com</p>
+    <p><a href="Contact.html">Contact Us</a></p>
+ </footer>
+</body>
+</html>
